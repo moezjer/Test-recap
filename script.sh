@@ -2,6 +2,9 @@
 
 echo "Mise a jour systeme d'exploitation"
 echo $1
+cd Bureau/test/
+git merge credits
+echo $?
 pwd
 vlcs $1
 set -e
