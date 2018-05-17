@@ -1,0 +1,32 @@
+#read -p 'entrer votre nom et age' nom age
+#echo "$nom est la avec $age ans"
+#echo "votre editeur par defaut est $SHELL"
+#if [ $nom = "moez" ]
+#then
+#	echo "bonjour $nom "
+#else
+#	echo "ou est moez"
+#fi
+#fichier=`touch moez.txt`
+#echo $fichier
+#echo $version | `cut -d' ' -f3`
+#echo $version |`awk '{print $NF}'`
+
+VERSION=`git describe --tags`
+echo "la derniere version est $VERSION "
+# split into array
+VERSION_BITS=(${VERSION//./ })
+
+echo "Latest version tag: $VERSION"
+
+#get number parts and increase last one by 1
+VNUM1=${VERSION_BITS[0]}
+VNUM2=${VERSION_BITS[1]}
+VNUM3=${VERSION_BITS[2]}
+
+echo $VNUM1
+echo $VNUM2
+echo $VNUM3
+
+var="test"
+echo "${var: -2}"
