@@ -2,3 +2,4 @@ Je fais une modification de test , pour ameliorer mes competance ,du quoi????
 Et ce test est il amelioratif ou a une effet sur moi!!!Modification sur master
 ajout de contenue 
 
+Test du  fonction git diff 
